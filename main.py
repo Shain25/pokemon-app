@@ -4,7 +4,7 @@ from json_manager import load_pokemon, save_data
 
 def get_random_pokemon():
     import requests
-    url="https://pokeapi.co/api/v2/pokemon"
+    url="https://pokeapi.co/api/v2/pokemon?limit=1200"
     response=requests.get(url)
     if response.status_code==200:
         pokemon_list=response.json()["results"]
