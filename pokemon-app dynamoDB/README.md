@@ -79,6 +79,7 @@ When you run the application:
         }
     ]
 }
+```
 
 ## 🐛 Troubleshooting
 
